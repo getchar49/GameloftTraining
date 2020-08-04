@@ -1,0 +1,19 @@
+﻿  stdafx.cpp
+  esShader.cpp
+  esUtil.cpp
+C:\Users\Admin\Desktop\3D_all\3DTraining\Utilities\esUtil.cpp(189,23): error C2664: 'void OutputDebugStringW(LPCWSTR)': cannot convert argument 1 from 'char [2048]' to 'LPCWSTR'
+C:\Users\Admin\Desktop\3D_all\3DTraining\Utilities\esUtil.cpp(189,20): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\debugapi.h(62,1): message : see declaration of 'OutputDebugStringW'
+  esUtil_win.cpp
+C:\Users\Admin\Desktop\3D_all\3DTraining\Utilities\esUtil_win.cpp(71,42): error C2440: '=': cannot convert from 'const char [12]' to 'LPCWSTR'
+C:\Users\Admin\Desktop\3D_all\3DTraining\Utilities\esUtil_win.cpp(71,29): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\Admin\Desktop\3D_all\3DTraining\Utilities\esUtil_win.cpp(87,1): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 2 from 'const char [12]' to 'LPCWSTR'
+C:\Users\Admin\Desktop\3D_all\3DTraining\Utilities\esUtil_win.cpp(87,1): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(4436,1): message : see declaration of 'CreateWindowExW'
+  Math.cpp
+C:\Users\Admin\Desktop\3D_all\3DTraining\Utilities\Math.cpp(10,13): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Admin\Desktop\3D_all\3DTraining\Utilities\Math.cpp(104,13): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Admin\Desktop\3D_all\3DTraining\Utilities\Math.cpp(208,13): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+  MemoryManager.cpp
+  MemoryOperators.cpp
+  TGA.cpp
